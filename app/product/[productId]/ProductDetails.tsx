@@ -11,14 +11,22 @@ const Horizontal = () => {
   return <hr className="w-[30%] my-2" />;
 };
 
-function downloadFile(url: string, fileName: string) {
-  var anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = fileName;
-  document.body.appendChild(anchor);
-  anchor.click();
-  document.body.removeChild(anchor);
-}
+// function readEBook(url: string) {
+//   var pdfURL = url;
+//   var link = document.createElement('a');
+//   link.href = pdfURL;
+//   link.target = "_blank";
+//   link.click();
+// }
+
+// function downloadFile(url: string, fileName: string) {
+//   var anchor = document.createElement("a");
+//   anchor.href = url;
+//   anchor.download = fileName;
+//   document.body.appendChild(anchor);
+//   anchor.click();
+//   document.body.removeChild(anchor);
+// }
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
   return (
@@ -44,22 +52,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         <Horizontal />
         <div className="text-justify">{product.description}</div>
         <Horizontal />
-        <div className="max-w-[300px]">
-          <Button
-            outline
-            label="Read E-Book"
-            onClick={() => {
-              window.open(product.content, "_blank");
-            }}
-          />
-        </div>
-        <div className="max-w-[300px]">
-          <Button
-            label="Download E-Book"
-            onClick={() => {
-              downloadFile(product.content, product.title);
-            }}
-          />
+        <div className="max-w-[500px]">
+          <Button outline label="Read E-Book" pdfLink={product.content} />
         </div>
       </div>
     </div>

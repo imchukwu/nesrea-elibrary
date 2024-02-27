@@ -9,7 +9,8 @@ interface ButtonProps {
   small?: boolean;
   custom?: string;
   icon?: IconType;
-  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  pdfLink?: string; 
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,8 +20,19 @@ const Button: React.FC<ButtonProps> = ({
   small,
   custom,
   icon: Icon,
+  pdfLink, 
   onClick,
 }) => {
+  
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (pdfLink) {
+      window.open(pdfLink, "_blank");
+    }
+    if (onClick) {
+      onClick(e);
+    }
+  };
+
   return (
     <button
       disabled={disabled}
@@ -41,6 +53,7 @@ const Button: React.FC<ButtonProps> = ({
     ${small ? "py-1 px-2 border-[1px]" : "py-3, px-4 border-2"}
     ${custom ? custom: ''}
     `}
+      onClick={handleClick} 
     >
       {Icon && <Icon size={24} />}
       {label}

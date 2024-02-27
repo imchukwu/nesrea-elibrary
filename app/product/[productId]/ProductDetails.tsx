@@ -29,24 +29,37 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       min-h-[300px] sm:min-h-[400px]"
       >
         <div className="col-span-5 relative aspect-square">
-        <Image
-          src={product.image}
-          alt="Product Image"
-          fill
-          className="object-Container"
-        />
+          <Image
+            src={product.image}
+            alt="Product Image"
+            fill
+            className="object-Container"
+          />
         </div>
       </div>
       <div className="flex flex-col gap-1 text-slate-500 text-sm">
         <h2 className="text-3xl font-medium text-slate-700">{product.title}</h2>
+        <div>{product.author}</div>
+        <div>{product.isbn}</div>
         <Horizontal />
         <div className="text-justify">{product.description}</div>
         <Horizontal />
         <div className="max-w-[300px]">
-          <Button outline label="Read E-Book" onClick={() => {window.open(product.content, "_blank");}} />
+          <Button
+            outline
+            label="Read E-Book"
+            onClick={() => {
+              window.open(product.content, "_blank");
+            }}
+          />
         </div>
         <div className="max-w-[300px]">
-          <Button label="Download E-Book" onClick={() => {downloadFile(product.content, product.title)}} />
+          <Button
+            label="Download E-Book"
+            onClick={() => {
+              downloadFile(product.content, product.title);
+            }}
+          />
         </div>
       </div>
     </div>

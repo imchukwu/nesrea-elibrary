@@ -14,7 +14,7 @@ export const products = [
     id: "64a654593e91b8e73a351e9b",
     title: "Environmental Safety, and Health Engineering",
     description:
-      'The product is refurbished, fully functional, and in excellent condition. Backed by the 90-day E~Shop Renewed Guarantee.\n- This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.\n- This product is in "Excellent condition". The screen and body show no signs of cosmetic damage visible from 12 inches away.\n- This product will have a battery that exceeds 80% capacity relative to new.\n- Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.\n- Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.\n- This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.\n- Refurbished phones are not guaranteed to be waterproof.',
+      "This comprehensive text delves into the world of ESH engineering, equipping readers with the knowledge and skills to create safer, healthier, and more sustainable workplaces and communities.",
     author: "Gayle Woodside, Dianna Kocurek",
     isbn: "ISBN123456789",
     image: bookCoverOne,
@@ -24,7 +24,7 @@ export const products = [
     id: "64a654593e91b8e73a35fe9b",
     title: "Guide to Environment Safety & Health Management",
     description:
-      "Developing, Implementing and Maintaining a continuous improvement program",
+      "This practical guide serves as a roadmap for organizations seeking to establish and maintain effective ESH programs. Learn how to  mitigate risks, communicate hazards,  plan for emergencies, and comply with regulations.",
     author: "Frances Alohan",
     isbn: "ISBN123456789",
     image: bookCoverTwo,
@@ -33,7 +33,8 @@ export const products = [
   {
     id: "64a654593e91b8e73f351e9b",
     title: "Occupational and Environmental Safety and Health",
-    description: "Short description",
+    description:
+      "This book explores the interconnected world of OESH, emphasizing the crucial link between worker safety and environmental protection. Discover strategies to create safe and healthy working conditions while minimizing the impact of human activities on the planet.",
     author: "Springer",
     isbn: "ISBN123456789",
     image: bookCoverThree,
@@ -42,7 +43,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a321e9b",
     title: "Indrustial Safety and Environment",
-    description: "Short description",
+    description:
+      "This focused guide equips readers with the knowledge and tools to navigate the complex world of industrial safety and environmental management. Learn how to manage risks associated with industrial processes, materials, and equipment, while effectively addressing waste management and pollution control.",
     author: "A. K. Gupta",
     isbn: "ISBN123456789",
     image: bookCoverFour,
@@ -52,7 +54,8 @@ export const products = [
     id: "64a654593e91b8e73a354e9b",
     title:
       "Health, Safety, and Environmental Management in Offshore And Petroleum Engineering",
-    description: "Short description",
+    description:
+      "This specialized text dives into the unique challenges and strategies for managing health, safety, and environmental concerns in offshore oil and gas exploration and production.",
     author: "Seinvasan Chandrasekaran",
     isbn: "ISBN123456789",
     image: bookCoverFive,
@@ -61,7 +64,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a35143b",
     title: "The A-Z of Health and Safety",
-    description: "Short description",
+    description:
+      "This comprehensive resource serves as your one-stop shop for all things health and safety.  Quickly find the information you need on a vast array of topics, from specific hazards and safety procedures to regulations and industry best practices.",
     author: "Jeremy Stranks",
     isbn: "ISBN123456789",
     image: bookCoverSix,
@@ -70,7 +74,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a351e4f",
     title: "Moral Ground",
-    description: "Short description",
+    description:
+      "This thought-provoking book explores the ethical dimensions of environmental protection and worker safety. Delve into the question of corporate responsibility and discover how to make informed decisions that  promote ethical and sustainable practices.",
     author: "Desmond Tutu",
     isbn: "ISBN123456789",
     image: bookCoverSeven,
@@ -79,7 +84,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a351e2b",
     title: "Industrial Safety, Health and Environmental Management Systems",
-    description: "Short description",
+    description:
+      "This book provides a blueprint for implementing and optimizing ISHEMS within your organization. Learn how to establish effective frameworks that drive continuous improvement in safety, health, and environmental performance.",
     author: "R. K. Jain, Sunil S. Rao",
     isbn: "ISBN123456789",
     image: bookCoverEight,
@@ -88,7 +94,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a351e5b",
     title: "Safety, Occupational Health and Environment in Construction",
-    description: "Short description",
+    description:
+      "This book equips readers with the expertise to navigate the safety, health, and environmental challenges specific to the construction industry. Discover practical strategies for mitigating hazards, managing waste, and minimizing environmental impact.",
     author: "S. C. Sharma, Vineet Kumar",
     isbn: "ISBN123456789",
     image: bookCoverNine,
@@ -97,7 +104,8 @@ export const products = [
   {
     id: "64a654593e91b8e73a351e9a",
     title: "Environmental Monitoring",
-    description: "Exploring the complexities and building your program",
+    description:
+      "This guide provides a comprehensive overview of environmental monitoring practices. Learn about the methods used to collect and analyze environmental data, and explore how this data can be utilized for early detection of problems, tracking trends, and informing environmental protection efforts.",
     author: "Daily Cruise",
     isbn: "ISBN123456789",
     image: bookCoverTen,

@@ -18,7 +18,7 @@ export const products = [
     author: "Gayle Woodside, Dianna Kocurek",
     isbn: "ISBN123456789",
     image: bookCoverOne,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a35fe9b",
@@ -28,7 +28,7 @@ export const products = [
     author: "Frances Alohan",
     isbn: "ISBN123456789",
     image: bookCoverTwo,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73f351e9b",
@@ -38,7 +38,7 @@ export const products = [
     author: "Springer",
     isbn: "ISBN123456789",
     image: bookCoverThree,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a321e9b",
@@ -48,7 +48,7 @@ export const products = [
     author: "A. K. Gupta",
     isbn: "ISBN123456789",
     image: bookCoverFour,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a354e9b",
@@ -59,7 +59,7 @@ export const products = [
     author: "Seinvasan Chandrasekaran",
     isbn: "ISBN123456789",
     image: bookCoverFive,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a35143b",
@@ -69,7 +69,7 @@ export const products = [
     author: "Jeremy Stranks",
     isbn: "ISBN123456789",
     image: bookCoverSix,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a351e4f",
@@ -79,7 +79,7 @@ export const products = [
     author: "Desmond Tutu",
     isbn: "ISBN123456789",
     image: bookCoverSeven,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a351e2b",
@@ -89,7 +89,7 @@ export const products = [
     author: "R. K. Jain, Sunil S. Rao",
     isbn: "ISBN123456789",
     image: bookCoverEight,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a351e5b",
@@ -99,7 +99,7 @@ export const products = [
     author: "S. C. Sharma, Vineet Kumar",
     isbn: "ISBN123456789",
     image: bookCoverNine,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf"
   },
   {
     id: "64a654593e91b8e73a351e9a",
@@ -109,6 +109,6 @@ export const products = [
     author: "Daily Cruise",
     isbn: "ISBN123456789",
     image: bookCoverTen,
-    content: "",
+    content: "https://www.oecd.org/env/ehs/Environment-Health-Safety-Brochure.pdf",
   },
 ];

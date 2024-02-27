@@ -39,8 +39,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
       </div>
       <div className="flex flex-col gap-1 text-slate-500 text-sm">
         <h2 className="text-3xl font-medium text-slate-700">{product.title}</h2>
-        <div>{product.author}</div>
-        <div>{product.isbn}</div>
+        <div>Author: {product.author}</div>
+        <div>ISBN: {product.isbn}</div>
         <Horizontal />
         <div className="text-justify">{product.description}</div>
         <Horizontal />
